@@ -1,4 +1,6 @@
-# Vesp Frontend
+# Vesp Frontend (Personal Fork)
+
+> **Note:** This is a personal optimized fork of the original [Vesp Frontend](https://github.com/bezumkin/vesp-frontend) by bezumkin. This version is tailored for personal use with optimizations and customizations.
 
 This library add default modules, plugins and settings to your **Nuxt 3** project to make it easier to start.
 
@@ -17,19 +19,19 @@ This library add default modules, plugins and settings to your **Nuxt 3** projec
 
 2. Then add the dependency:
 ```npm
-yarn add @vesp/frontend
+yarn add @gla1ke/vesp-frontend
 ```
 or
 ```npm
-npm i @vesp/frontend --save
+npm i @gla1ke/vesp-frontend --save
 ```
 
-3. Add `@vesp/frontend` module into your nuxt.config.ts modules
+3. Add `@gla1ke/vesp-frontend` module into your nuxt.config.ts modules
 ```js
 export default defineNuxtConfig({
   css: ['~/assets/scss/index.scss'],
   // ...
-  modules: ['@vesp/frontend'],
+  modules: ['@gla1ke/vesp-frontend'],
   vesp: {
     icons: {
       solid: ['faUser', 'faPowerOff', 'faRightToBracket'],
@@ -42,8 +44,8 @@ export default defineNuxtConfig({
 ```scss
 // ~/assets/scss/index.scss
 @import 'bootstrap-scss/bootstrap';
-@import '@vesp/frontend/assets/components';
-@import '@vesp/frontend/assets/toast';
+@import '@gla1ke/vesp-frontend/assets/components';
+@import '@gla1ke/vesp-frontend/assets/toast';
 @import '@fortawesome/fontawesome-svg-core/styles.css';
 ```
 
@@ -75,3 +77,13 @@ Very useful for submitting a list of social networks for user.
 ## Examples
 
 This module is used in [main Vesp package](https://github.com/bezumkin/vesp), please follow the link for examples.
+
+## Fork Optimizations
+
+This personal fork includes the following optimizations and customizations:
+
+- **Personalized Configuration**: Tailored default settings for personal use cases
+- **Repository Ownership**: Updated to reflect fork ownership by gla1ke
+- **Custom Enhancements**: Additional optimizations for specific workflows
+
+For the original project, see [bezumkin/vesp-frontend](https://github.com/bezumkin/vesp-frontend).
